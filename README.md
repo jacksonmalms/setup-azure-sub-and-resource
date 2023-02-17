@@ -33,18 +33,18 @@ This tutorial is desined to teach absolute beginners that have never touched Azu
 <h2>Azure Setup Steps and Resource Group Creation</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/LjRwydo.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+First, you are obviously going to need to create an account. Go to https://azure.microsoft.com/en-us/free/ and click the green start free button. (Unfortunately you will need a credit card to create your free account, there really isn't any way around this, it just is what it is)
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ChmLLLV.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+After your account setup and confirmation is complete (which may take a minute), you will get redircted to this page. From here, click the blue "Go to the Azure portal" button or you can go to https://portal.azure.com (<-- this is a good link to memorize) and it will sign you into the portal with whichever account that you are currently signed into.
 </p>
 <br />
 
