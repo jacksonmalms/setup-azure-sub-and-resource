@@ -3,7 +3,7 @@
 </p>
 
 <h1>How to Setup a Subscription and a Resource in Azure</h1>
-This tutorial is desined to teach absolute beginners that have never touched Azure before how to properly set up an Azure subscription to practice and do hands-on labs in to learn and gain experince with Azure. (This tutorial may be a bit redundant, I really just made it for me to practice showcasing my projects and/or tutorials on GitHub!)<br />
+This tutorial is desined to teach absolute beginners that have never touched Azure before how to properly set up an Azure subscription so that they can learn and do labs to practice and gain experince with Azure. (This tutorial may be a bit redundant, I really just made it to practice showcasing my projects and/or tutorials on GitHub!)<br />
 
 
 <h2>Video Demonstration (placeholder, video is not done yet)</h2>
@@ -36,7 +36,7 @@ This tutorial is desined to teach absolute beginners that have never touched Azu
 <img src="https://i.imgur.com/LjRwydo.png"/>
 </p>
 <p>
-First, you are obviously going to need to create an account. Go to https://azure.microsoft.com/en-us/free/ and click the green start free button. (Unfortunately you will need a credit card to create your free account, there really isn't any way around this, it just is what it is)
+First, you are obviously going to need to create an account. Go to https://azure.microsoft.com/en-us/free/ and click the green start free button. (Unfortunately you will need a credit/debit card to create your free account, there really isn't any way around this, it just is what it is)
 </p>
 <br />
 
@@ -49,9 +49,135 @@ After your account setup and confirmation is complete (which may take a minute),
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/6dleiQ2.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Once you get to the portal home page, type "subscriptions" in the search bar to make sure that your subscription is active and identify it.
+In the next step, we are going to make our first resource group.
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/GgFY7AJ.png"/>
+</p>
+<p>
+To get to the resource group page, simply search for it in the portal searchbar. Next, hit the blue "Create resource group" button.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/MIw01SI.png"/>
+</p>
+<p>
+Now lets start configuring our new resource group. Since you probably only have that one subscription, you probably won't need to touch that drop down menu, just make sure it's selected. For the group name I just named it "RG-Lab-1", but you can name it what ever you want. And you will probably want to set the region to your own region, select the region you want from the drop down menu. Hit the "Next: Tags >" button on the bottom left.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/RH8d7Yt.png"/>
+</p>
+<p>
+On this page you can assign tags to the resource group. Skip this as you don't have to assign any tags, but this is just for organizations to keep track of data pertaining to certain resources. Hit the "Next : Review + create >" button.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/FIyOpk5.png"/>
+</p>
+<p>
+On this page just make sure the information about the resource group is correct and hit create.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/UqDWIKU.png"/>
+</p>
+<p>
+Go back to the resource groups page and make sure the new resource group is there, you can get back to the page by searching for it again in the searchbar. Next we are going to test out this new resource group by adding an Azure Storage Account (it is basically like a robust google drive or dropbox).
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/NFs2IEf.png"/>
+</p>
+<p>
+Search for storage accounts in the searchbar and click on it in the services section, it should be the first item in the serach result. Once you get to the page, hit the blue "create storage account" button.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/dLDQe5a.png"/>
+</p>
+<p>
+Now select the subscription and resource group we just made in the first two drop down menus. Then create the name for your storage account, it needs to be globally unique. Now hit the blue review button in the bottom left, you might need to wait a minute for it to run final validation and then hit create!
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/PutNYrh.png"/>
+</p>
+<p>
+Wait for it to complete deployment and hit "Go to resource".
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/hvoA7vJ.png"/>
+</p>
+<p>
+Once you are in the storage account, click on containers.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/fxeNC54.png"/>
+</p>
+<p>
+Now create a new container, name it, and hit create.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DYJvYB6.png"/>
+</p>
+<p>
+Now click on the new container you just made, and we are going to upload a basic text file into the container.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/ysuSi5q.jpg"/>
+</p>
+<p>
+Just make a new text document on your desktop, then name it and write what ever you want in it.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/ZuQHKzS.png"/>
+</p>
+<p>
+Click the upload button and you can just drag and drop the file from your desktop or you can serach for it in file explorer, and then upload it!
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/vwQkCp3.png"/>
+</p>
+<p>
+Now that you have uploaded the file, you can edit, download it to your computer, or do whatever you want with it.
+</p>
+<br />
+
+<p>
+</p>
+<p>
+That just about concludes this tutorial/lab, for the final step we are now going to just delete the resource group entirely to ensure that we don't incur any cost. You can redo this tutorial/lab as many times as you'd like until you feel that you've got it down!
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/vwQkCp3.png"/>
+</p>
+<p>
+To delete the resource group, just go back to the resource groups page, click on the resource group, click delete resource group, and type/copy paste the resource group's name to confirm, and then click delete.
