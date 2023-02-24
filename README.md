@@ -6,10 +6,6 @@
 This tutorial is desined to teach absolute beginners that have never touched Azure before how to properly set up an Azure subscription so that they can learn and do labs to practice and gain experince with Azure. (This tutorial may be a bit redundant, I really just made it to practice showcasing my projects and/or tutorials on GitHub!)<br />
 
 
-<h2>Video Demonstration (placeholder, video is not done yet)</h2>
-
-- ### [YouTube: How to Setup Azure for Absolute Beginners to Gain Hands-on Lab Experience in](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure
