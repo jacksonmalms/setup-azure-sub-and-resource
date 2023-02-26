@@ -3,7 +3,7 @@
 </p>
 
 <h1>How to Setup a Subscription and a Resource in Azure</h1>
-This tutorial is desined to teach absolute beginners that have never touched Azure before how to properly set up an Azure subscription so that they can learn and do labs to practice and gain experince with Azure. (This tutorial may be a bit redundant, I really just made it to practice showcasing my projects and/or tutorials on GitHub!)<br />
+This tutorial is designed to teach absolute beginners that have never touched Azure before how to properly set up an Azure subscription so that they can learn and do labs to practice and gain experience with Azure. (This tutorial may be a bit redundant, I really just made it to practice showcasing my projects and/or tutorials on GitHub!)<br />
 
 
 <h2>Environments and Technologies Used</h2>
@@ -97,7 +97,7 @@ Go back to the resource groups page and make sure the new resource group is ther
 <img src="https://i.imgur.com/NFs2IEf.png"/>
 </p>
 <p>
-Search for storage accounts in the searchbar and click on it in the services section, it should be the first item in the serach result. Once you get to the page, hit the blue "create storage account" button.
+Search for storage accounts in the searchbar and click on it in the services section, it should be the first item in the search result. Once you get to the page, hit the blue "create storage account" button.
 </p>
 <br />
 
@@ -153,7 +153,7 @@ Just make a new text document on your desktop, then name it and write what ever 
 <img src="https://i.imgur.com/ZuQHKzS.png"/>
 </p>
 <p>
-Click the upload button and you can just drag and drop the file from your desktop or you can serach for it in file explorer, and then upload it!
+Click the upload button and you can just drag and drop the file from your desktop or you can search for it in file explorer, and then upload it!
 </p>
 <br />
 
